@@ -14,11 +14,9 @@ config.window_padding = {
 
 config.font = wezterm.font({
 	family = "Fira Code",
-	harfbuzz_features = { "calt=1", "clig=1", "liga=1" },
+	harfbuzz_features = { "calt=1", "clig=1", "liga=1", "ss09=1" },
 })
 config.font_size = 13
 config.force_reverse_video_cursor = true
-
-config.default_domain = "WSL:Ubuntu"
 
 return config
